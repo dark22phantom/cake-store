@@ -13,7 +13,7 @@ request:
     "image":"https://img.taste.com.au/ynYrqkOs/w720-h480-cfill-q80/taste/2016/11/sunny-lemon-cheesecake-102220-1.jpeg",
     "rating":7
 }
-```JSON
+```
 response:
 ```JSON
 {
@@ -26,7 +26,7 @@ response:
         "image": "https://img.taste.com.au/ynYrqkOs/w720-h480-cfill-q80/taste/2016/11/sunny-lemon-cheesecake-102220-1.jpeg"
     }
 }
-```JSON
+```
 
 2. List of cake.
 method: GET. 
@@ -49,7 +49,7 @@ response:
         }
     ]
 }
-```JSON
+```
 
 3. Detail of cake.
 method: GET. 
@@ -70,7 +70,7 @@ response:
         "updated_at": "2022-05-22 18:51:25"
     }
 }
-```JSON
+```
 
 4. Update cake.
 method: PATCH. 
@@ -83,7 +83,7 @@ request:
     "image":"https://img.taste.com.au/ynYrqkOs/w720-h480-cfill-q80/taste/2016/11/sunny-lemon-cheesecake-102220-1.jpeg",
     "rating":7
 }
-```JSON
+```
 response:
 ```JSON
 {
@@ -99,7 +99,7 @@ response:
         "updated_at": "2022-05-22 18:54:32"
     }
 }
-```JSON
+```
 
 5. Delete cake.
 method: DELETE. 
@@ -112,5 +112,5 @@ response:
     "responseMessage": "Success",
     "data": ""
 }
-```JSON
+```
 
