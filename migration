@@ -1,0 +1,14 @@
+CREATE DATABASE IF NOT EXISTS cake_store;
+
+USE cake_store;
+
+CREATE TABLE `cakes` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `title` varchar(100) DEFAULT NULL,
+  `description` varchar(255) DEFAULT NULL,
+  `rating` tinyint(2) DEFAULT NULL,
+  `image` varchar(255) DEFAULT NULL,
+  `created_at` datetime DEFAULT NULL,
+  `updated_at` datetime DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
