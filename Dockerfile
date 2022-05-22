@@ -1,4 +1,4 @@
-FROM golang:1.16-alpine3.15 as builder
+FROM golang:1.18-alpine3.15 as builder
 WORKDIR /app
 COPY go.mod go.sum ./
 RUN go mod download \
@@ -13,7 +13,7 @@ ENV TZ=Asia/Jakarta \
     MYSQL_PASSWORD="root" \
     MYSQL_HOST="localhost" \
     MYSQL_PORT="3306" \
-    MYSQL_DBNAME="cakes" \
+    MYSQL_DBNAME="cake_store" \
     MYSQL_MAX_IDLE_POOL="10" \
     MYSQL_MAX_IDLE_TIME="10" \
 
